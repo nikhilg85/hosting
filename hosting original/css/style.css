@@ -205,7 +205,7 @@
 .main_header {
 	float: left;
 	width: 100%;
-	background: url(../images/header-bg.png) no-repeat center 36px;
+	background-color: #333;
 }
 
 /* top section */
@@ -356,7 +356,7 @@
 	width: 100%;
 	padding: 0px 0px 40px 0px;
 	border-top: 1px solid #c8e6f8;
-	background: #c5e5fa url(../images/clouds-bg.png) no-repeat center top;
+	background: #c5e5fa url(../images/clouds-bg.png) repeat center top;
 }
 .hostplan_offers .title {
 	float: left;
@@ -493,10 +493,21 @@
 	width: 23.075%;
 	margin-right: 2.550%;
 }
-.hosting_plans .one_fourth {
-	float: left;
-	width: 18.075%;
-	margin-right: 2.550%;
+.mypage{
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+float: left;
+width: 98%;
+border-radius: 4px;
+padding: 5px 5px 20px 5px;
+background-color: #fff;
+}
+
+.myclearfix{
+float: left;
+width: 100%;
+padding: 0px;
+margin: 13px 0px 35px 0px;
+border-bottom: 1px solid #f0f0f0;
 }
 
 
@@ -795,9 +806,10 @@
 .footer {
 	float: left;
 	width: 100%;
-	background: url(../images/footer-bg.png) no-repeat center top;
+	background: url(../images/footer-bg.png) repeat center top;
 	padding-bottom: 10px;
 	padding-top: 30px;
+	
 }
 .footer .one_fourth {
 	float: left;

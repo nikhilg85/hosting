@@ -27,7 +27,7 @@ website:   	http://www.themepunch.com
 		max-height: 500px !important;
 		overflow:hidden;
 		z-index: 998;
-		background: url(../../../images/header-bg.png) no-repeat center -74px;
+		background-color:#0c0c0c;
 	}
 	.fullwidthbanner-container .fullwidthbanner{
 		width:100% !important;
